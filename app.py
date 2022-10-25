@@ -1,4 +1,4 @@
-from flask import Flask, flash, redirect, render_template, request, session
+from flask import Flask, flash, redirect, render_template, request
 from tempfile import mkdtemp
 
 app = Flask(__name__)

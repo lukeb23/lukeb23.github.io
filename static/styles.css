@@ -12,6 +12,7 @@ body {
     font-size: 1.2em;
     justify-content: center;
     font-weight: 200;
+    line-height:1.75em;
 }
 
 /* footer */
@@ -80,4 +81,14 @@ body {
     transition: transform 0.3s;
     /* same as box shadow hover */
     color: #ad183b;
+}
+
+.img{
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height:486px;
+    object-fit: cover;
+}
+
+.carousel-item > p, h1{
+    color: red;
 }
